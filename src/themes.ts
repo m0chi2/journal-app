@@ -1,4 +1,5 @@
 import { createTheme } from '@mui/material/styles'
+import darkScrollbar from "@mui/material/darkScrollbar";
 
 const theme = createTheme({
     palette: {
@@ -20,6 +21,18 @@ const theme = createTheme({
       }
     },
     components: {
+      MuiCssBaseline: {
+        styleOverrides: {
+          body: {
+            ...darkScrollbar(),
+            color: "#2F4858",
+            background: "linear-gradient(216.96deg, rgba(255, 255, 255, 0.2) 4.2%, rgba(255, 255, 255, 0.151042) 8.76%, rgba(0, 0, 0, 0) 23.62%), #2F4858",
+            padding: 0,
+            margin: 0,
+            fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
+          }
+        }
+      },
       MuiButton: {
         styleOverrides: {
           root: {

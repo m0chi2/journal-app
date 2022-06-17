@@ -18,8 +18,7 @@ export default function Frame({ children }: FrameProps ) {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        position: "relative",
-        background: "linear-gradient(216.96deg, rgba(255, 255, 255, 0.2) 4.2%, rgba(255, 255, 255, 0.151042) 8.76%, rgba(0, 0, 0, 0) 23.62%), #2F4858"
+        position: "relative"
       }}
     >
       <Container

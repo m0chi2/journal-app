@@ -1,4 +1,4 @@
-import { globalStyles } from '../../shared/styles'
+import CssBaseline from "@mui/material/CssBaseline";
 import { AppProps } from 'next/app';
 import { ThemeProvider } from '@emotion/react'
 import { CacheProvider, EmotionCache } from '@emotion/react';
@@ -17,7 +17,7 @@ function MyApp(props: MyAppProps) {
   return (
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={theme}>
-        {globalStyles}
+        <CssBaseline />
         <Component {...pageProps} />
       </ThemeProvider>
     </CacheProvider>

@@ -55,7 +55,7 @@ export default function HomeTabs() {
         width: 420
       }}
     >
-      <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+      <Image src="/images/logo.png" alt="Pattmi Logo" width={80} height={20} />
       <Tabs
         value={value}
         onChange={handleChange}
