@@ -29,7 +29,7 @@ const theme = createTheme({
             background: "linear-gradient(216.96deg, rgba(255, 255, 255, 0.2) 4.2%, rgba(255, 255, 255, 0.151042) 8.76%, rgba(0, 0, 0, 0) 23.62%), #2F4858",
             padding: 0,
             margin: 0,
-            fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
+            fontFamily: "Montserrat, Noto Sans JP, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif"
           }
         }
       },

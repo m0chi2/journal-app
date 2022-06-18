@@ -1,5 +1,5 @@
-import Head from 'next/head'
 import Box from '@mui/material/Box'
+import Head from 'next/head'
 import Navigation from 'components/Navigation'
 
 type LayoutProps =  {

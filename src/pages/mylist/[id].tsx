@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import { useRouter } from 'next/router'
-import Box from "@mui/material/Box"
-import Grid from "@mui/material/Grid"
-import Typography from "@mui/material/Typography"
-import Divider from "@mui/material/Divider"
 import CloseIcon from '@mui/icons-material/Close'
+import Box from "@mui/material/Box"
+import Divider from "@mui/material/Divider"
+import Grid from "@mui/material/Grid"
 import IconButton from '@mui/material/IconButton'
+import Typography from "@mui/material/Typography"
+import { useRouter } from 'next/router'
+import { useState } from 'react'
+import { ButtonBase } from "components/ButtonBase"
+import { CardLg } from "components/CardLg"
 import Layout from "components/Layout"
 import { TitlePages } from "components/TitlePages"
-import { CardLg } from "components/CardLg"
-import { ButtonBase } from "components/ButtonBase"
 
 // const router = useRouter()
 // const { pid } = router.query
