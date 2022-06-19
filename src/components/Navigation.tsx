@@ -1,20 +1,20 @@
-import { useState } from 'react';
-import MuiDrawer from '@mui/material/Drawer';
-import { styled, useTheme, Theme, CSSObject } from '@mui/material/styles';
-import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
-import IconButton from '@mui/material/IconButton';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import ManageSearchIcon from '@mui/icons-material/ManageSearch';
+import SendIcon from '@mui/icons-material/Send'
+import StarIcon from '@mui/icons-material/Star'
+import Divider from '@mui/material/Divider';
+import MuiDrawer from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton'
+import List from '@mui/material/List';;
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import DashboardIcon from '@mui/icons-material/Dashboard';
-import StarIcon from '@mui/icons-material/Star'
-import SendIcon from '@mui/icons-material/Send'
-import ManageSearchIcon from '@mui/icons-material/ManageSearch';
-import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import { styled, useTheme, Theme, CSSObject } from '@mui/material/styles';
+import { useState } from 'react';
 
 const drawerWidth = 240;
 
@@ -82,7 +82,12 @@ export default function Navigation() {
   return ( <>
   <Drawer variant="permanent" open={open}>
     <DrawerHeader>
-      <IconButton onClick={handleDrawerToggle} sx={{ color: "primary.contrastText" }}>
+      <IconButton
+        onClick={handleDrawerToggle}
+        aria-label="メインメニュー エリア拡大"
+        sx={{ 
+          color: "primary.contrastText"
+        }}>
         {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
       </IconButton>
     </DrawerHeader>

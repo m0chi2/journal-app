@@ -1,8 +1,8 @@
+import Box from '@mui/material/Box'
+import Tab from '@mui/material/Tab'
+import Tabs from '@mui/material/Tabs'
 import Image from 'next/image'
 import { useState } from "react"
-import Tabs from '@mui/material/Tabs'
-import Tab from '@mui/material/Tab'
-import Box from '@mui/material/Box'
 import HomeTabContent from './HomeTabContent'
 
 type TabPanelProps = {

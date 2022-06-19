@@ -1,8 +1,7 @@
-import * as React from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document'
 import createEmotionServer from '@emotion/server/create-instance'
-import theme from 'themes'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 import createEmotionCache from 'createEmotionCache'
+import theme from 'themes'
 
 export default class MyDocument extends Document {
   render() {
@@ -13,11 +12,12 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="/static/favicon.ico" />
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap"
           />
           {(this.props as any).emotionStyleTags}
         </Head>
         <body>
+          <script>0</script>
           <Main />
           <NextScript />
         </body>

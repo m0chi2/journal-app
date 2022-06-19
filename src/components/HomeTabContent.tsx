@@ -1,8 +1,8 @@
-import Image from 'next/image'
+import { ArrowForward } from '@mui/icons-material'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
-import { ButtonBase } from './ButtonBase';
-import { ArrowForward } from '@mui/icons-material'
+import Image from 'next/image'
+import { ButtonBase } from './ButtonBase'
 
 export default function HomeTabContent() {
   return(

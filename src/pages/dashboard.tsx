@@ -1,9 +1,9 @@
+import CardActionArea from '@mui/material/CardActionArea'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
-import CardActionArea from '@mui/material/CardActionArea'
-import Layout from 'components/Layout'
 import { CardLg } from 'components/CardLg'
 import { CardMediaMd } from 'components/CardMediaMd'
+import Layout from 'components/Layout'
 import { SubTitlePages } from 'components/SubTitlePages'
 
 export default function Dashboard() {
